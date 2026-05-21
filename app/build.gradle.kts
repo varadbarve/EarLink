@@ -2,6 +2,7 @@ plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.compose.compiler)
   alias(libs.plugins.kotlin.serialization)
+  alias(libs.plugins.legacy.kapt)
 }
 
 android {
@@ -92,5 +93,5 @@ dependencies {
 
   // Room Database
   implementation(libs.androidx.room.runtime)
-  annotationProcessor(libs.androidx.room.compiler)
+  kapt(libs.androidx.room.compiler)
 }
