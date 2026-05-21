@@ -1,0 +1,4 @@
+{
+  "mock_script": "echo 'Hello from EarLink Desktop'",
+  "startup_script": "python D:/scripts/startup.py"
+}
