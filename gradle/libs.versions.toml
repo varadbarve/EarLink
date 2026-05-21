@@ -13,7 +13,7 @@ junit = "4.13.2"
 kotlin = "2.3.20"
 nav3Core = "1.0.1"
 lifecycleViewmodelNav3 = "2.10.0"
-room = "2.6.1"
+room = "2.8.0"
 okhttp = "4.12.0"
 media = "1.7.0"
 
@@ -48,4 +48,4 @@ okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-legacy-kapt = { id = "com.android.legacy-kapt", version.ref = "androidGradlePlugin" }
+ksp = { id = "com.google.devtools.ksp", version = "2.3.7" }
